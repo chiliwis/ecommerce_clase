@@ -1,9 +1,18 @@
-import logo from './logo.svg';
+
 import './App.css';
+import AppRouter from './routes/AppRouter';
+import Footer from './components/Footer';
+import Navbar from './components/Navbar';
 
 function App() {
   return (
-   <h1 className='text-success'>Esto es un titulo</h1>
+    <>
+     <Navbar/>
+   <AppRouter/>
+   <Footer/>
+    </>
+  
+    
   );
 }
 
